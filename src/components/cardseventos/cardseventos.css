@@ -1,0 +1,61 @@
+/* Estilo geral para o cartão de evento */
+.cartao-evento {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid #4caf50; /* Borda verde */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Informações do evento */
+  .informacoes-evento {
+    margin-bottom: 20px;
+  }
+  
+  /* Descrição do evento */
+  .descricao-evento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .descricao-evento h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #4caf50; /* Verde para o título */
+    margin-bottom: 15px;
+  }
+  
+  .descricao-evento img {
+    border-radius: 8px;
+    border: 2px solid #4caf50; /* Borda verde */
+    margin-bottom: 15px;
+  }
+  
+  .descricao-evento span {
+    display: block;
+    font-size: 1em;
+    color: #333333; /* Preto para o texto */
+    margin-bottom: 10px;
+  }
+  
+  /* Botão */
+  .descricao-evento button {
+    background-color: #4caf50; /* Fundo verde */
+    color: white; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .descricao-evento button:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+  }
+  

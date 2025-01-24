@@ -1,0 +1,72 @@
+/* Estilo geral para o cartão de vaga */
+.coluna.publicacao-vaga {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .cartao-vaga {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid #4caf50; /* Borda verde */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Imagem da vaga */
+  .imagem-vaga {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #4caf50; /* Borda verde */
+  }
+  
+  /* Descrição da vaga */
+  .descricao-vaga {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Tempo da vaga */
+  .time-vagas {
+    font-size: 0.9em;
+    color: #666666; /* Cinza para o tempo */
+    margin-bottom: 5px;
+  }
+  
+  /* Nome da vaga */
+  .-nome-vagas {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4caf50; /* Verde para o nome */
+    margin-bottom: 10px;
+  }
+  
+  /* Conteúdo da vaga */
+  .content-vagas {
+    font-size: 1em;
+    color: #333333; /* Preto para o texto */
+    margin-bottom: 15px;
+  }
+  
+  /* Botão */
+  .botao-acessar {
+    background-color: #4caf50; /* Fundo verde */
+    color: white; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-acessar:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+  }

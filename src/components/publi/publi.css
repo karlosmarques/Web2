@@ -1,0 +1,32 @@
+
+.publicacao {
+    background-color: #ffffff; /* Fundo branco para o cartão */
+    border: 2px solid #4caf50; /* Borda verde */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 16px;
+    margin: 16px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.publicacao div {
+    margin-bottom: 12px;
+}
+
+.nome {
+    font-weight: bold;
+    color: #4caf50; /* Verde para o nome */
+    font-size: 1.2em;
+}
+
+.time {
+    font-size: 0.9em;
+    color: #757575; /* Cinza para o horário */
+    margin-left: 8px;
+}
+
+.publi {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333; /* Texto principal em cinza escuro */
+}

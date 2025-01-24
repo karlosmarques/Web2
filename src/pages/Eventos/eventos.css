@@ -1,0 +1,130 @@
+
+:root {
+    --cor-primaria: #28a745; 
+    --cor-secundaria: #ffffff; 
+    --cor-destaque: #155724; 
+    --cor-texto: #333333; 
+    --cor-sombra: rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+  }
+  
+  
+  .conteudo {
+    padding: 20px;
+  }
+  
+  
+  .lista-eventos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+ 
+  .cartao-evento {
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 48%; 
+    box-shadow: 0 3px 6px var(--cor-sombra);
+    transition: transform 0.3s ease;
+  }
+  
+  .cartao-evento:hover {
+    transform: translateY(-5px);
+  }
+  
+ 
+  .informacoes-evento {
+    padding: 15px;
+  }
+  
+  .imagem-evento {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .descricao-evento {
+    margin-top: 10px;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    color: var(--cor-primaria);
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    font-size: 1rem;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: var(--cor-primaria);
+  }
+  
+  
+  .icone-filtro {
+    color: var(--cor-primaria);
+    font-size: 1.2rem;
+    margin-top: -5px;
+    margin-right: 5px;
+  }
+  
+ 
+  p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: var(--cor-texto);
+  }
+  
+  
+  .botao-registro {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-registro:hover {
+    background-color: var(--cor-destaque);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .lista-eventos {
+      flex-direction: column;
+    }
+  
+    .cartao-evento {
+      width: 100%; 
+    }
+  }
+  

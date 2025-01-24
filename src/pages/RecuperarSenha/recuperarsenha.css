@@ -1,0 +1,69 @@
+/* RecuperarSenha.css */
+
+.recuperarsenhacontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .titulorecuperarsenha {
+    font-size: 2rem;
+    color: #506736;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .inputsenha {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .input-label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #4A90E2;
+    outline: none;
+  }
+  
+  .butaorecuperarsenha {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 1rem;
+    background-color:#506736;
+    border-color: #506736;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .butaorecuperarsenha:hover {
+    background-color: #00b32d;
+  }
+  
+  .butaorecuperarsenha:disabled {
+    cursor: not-allowed;
+  }
+  

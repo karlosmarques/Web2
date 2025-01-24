@@ -1,0 +1,86 @@
+
+.corpotroca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Formulário (Card) */
+  .geraltroca{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff; /* Branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra verde */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    justify-content: center; /* Garante que o conteúdo seja centralizado verticalmente */
+  }
+  
+  /* Cabeçalho */
+  .cabeçalho {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #008000; /* Verde */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Grupos de inputs */
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os elementos */
+    justify-content: center; /* Garante que os inputs fiquem centralizados dentro da div */
+    align-items: center; /* Garante o alinhamento centralizado */
+  }
+  
+  /* Input e Label */
+  .grupo-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Garante que o input ocupe toda a largura possível */
+  }
+  
+  .rotulo-formulario {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000000; /* Verde escuro */
+  }
+  
+  .entrada-formulario {
+    padding: 10px;
+    border: 1px solid #ece9e9; 
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333333; /* Texto escuro */
+    background-color: #f9f9f9; /* Branco claro */
+  }
+  
+  .entrada-formulario:focus {
+    border-color: #006400; /* Verde escuro */
+    outline: none;
+    box-shadow: 0 0 4px #008000; /* Sombra verde */
+  }
+  
+  /* Botão */
+  .botao-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; 
+    border-color: #28a745; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .botao-submit:hover {
+    background-color: #218838; 
+}
+

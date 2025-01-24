@@ -1,0 +1,44 @@
+/* Corpo principal da monitoria */
+.corpo-monitoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  /* Estilo da publicação */
+  .publicacao-monitoria {
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #008000; /* Borda verde */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Estilo do card */
+  .card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .nome-monitoria {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #006400; 
+    margin-bottom: 10px;
+  }
+  
+
+  .time-monitoria {
+    font-size: 1rem;
+    color: #228B22; 
+    margin-bottom: 15px;
+  }
+
+  

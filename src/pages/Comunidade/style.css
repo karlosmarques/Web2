@@ -1,0 +1,66 @@
+
+  /* Seção de Feed */
+  .secao-feed {
+    margin-top: 40px;
+  }
+  
+  .container-feed {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .feed {
+    display: flex;
+    background-color: white; /* Fundo branco para os posts */
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .imagem-usuario {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .nome-usuario {
+    max-width: 100%;
+  }
+  
+  .nome-usuario h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #388E3C; /* Nome em verde */
+    margin-bottom: 10px;
+  }
+  
+  .nome-usuario p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .nome-usuario p a {
+    color: #388E3C; /* Links com cor verde */
+    text-decoration: none;
+  }
+  
+  .nome-usuario p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo de Botões no Feed (Se houver interação) */
+  .botao-like, .botao-comentar {
+    background-color: transparent;
+    border: none;
+    color: #388E3C; /* Cor verde para os botões de interação */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .botao-like:hover, .botao-comentar:hover {
+    color: #66BB6A; /* Verde mais claro ao passar o mouse */
+  }
+  

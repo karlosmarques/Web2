@@ -1,0 +1,134 @@
+.sectionperfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  padding: 0 15px;
+}
+
+.container.texto-centralizado {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.linha.alinhar-itens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column; 
+}
+
+.col-sm-4 {
+  flex: 0 0 150px;
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+}
+
+.foto-perfil {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #28a745;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.foto-perfil:hover {
+  transform: scale(1.1);
+}
+
+#nome-usuario h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+#nome-usuario p {
+  margin-top: 10px;
+}
+
+.botaoperfil,
+.botao2perfil {
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
+  text-align: center;
+}
+
+.botaoperfil {
+  background-color:#28a745;
+  color: white;
+}
+
+.botao2perfil {
+  background-color: #28a745;
+  color: white;
+}
+
+.botaoperfil:hover {
+  background-color: #218838;
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+.botao2perfil:hover {
+  background-color: #218838;
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+.texto {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.texto p {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.texto p span {
+  font-weight: 600;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .linha.alinhar-itens {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .foto-perfil {
+      margin-bottom: 20px;
+  }
+
+  .col-sm-8 {
+      width: 100%;
+  }
+
+  .texto {
+      margin-top: 20px;
+  }
+
+  /* Garantir que as colunas ocupem a largura total em telas menores */
+  .col-sm-4 {
+      flex: 1 1 100%;
+      max-width: 100%;
+  }
+}
